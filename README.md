@@ -44,4 +44,104 @@ This demonstrates **architecture design and production readiness**, not just UI 
 ---
 
 ## 🏗️ Application Architecture
+Frontend (HTML + Tailwind + JavaScript)
+|
+v
+Custom PHP API Layer (Mock Atomberg API)
+|
+v
+MySQL Database (Device State & Usage)
 
+
+### Key Design Principles
+- No secrets exposed to frontend JavaScript
+- Session-based authentication
+- Clear separation of concerns
+- Easy migration to real Atomberg APIs
+
+---
+
+## 🔐 Demo Credentials
+
+For evaluation purposes, demo credentials are provided.
+
+**API Key**
+
+
+demo_api_key_123
+
+
+**Refresh Token**
+
+
+demo_refresh_token_abc
+
+
+> These credentials are safe to use and meant only for demonstration.
+
+---
+
+## 🚀 How to Use the Application
+
+1. Open the hosted link  
+   👉 https://greenyellow-pigeon-935722.hostingersite.com/
+
+2. Enter the **API Key** and **Refresh Token**
+
+3. Click **Connect**  
+   - You will be redirected to the dashboard
+
+4. On the dashboard:
+   - View all available fans
+   - Click a fan to open controls
+   - Toggle Power ON / OFF
+   - Change Speed
+   - Enable / Disable Sleep Mode
+
+5. Fan states update visually:
+   - Fan rotation animation when ON
+   - Power indicator updates
+   - Current speed and mode displayed
+
+---
+
+## ⚡ Energy Usage & Cost Calculation
+
+Energy consumption is calculated using:
+
+
+
+Units Consumed = (Power in Watts × Usage Hours) / 1000
+Cost = Units × ₹7
+
+
+- Electricity rate assumed: **₹7 per unit**
+- Energy usage and cost are shown per fan
+
+---
+
+## 🎨 UI & UX Highlights
+
+- Atomberg-inspired modern UI
+- Dark & Light theme toggle
+- Fully responsive (Mobile + PC)
+- SVG fan with rotation animation
+- Bottom-sheet modal on mobile
+- Clean, app-like interactions
+
+---
+
+## 🧠 Summary
+
+This project demonstrates:
+- Secure handling of credentials
+- Thoughtful API abstraction
+- Realistic IoT control workflows
+- Production-quality UI/UX
+- Scalable and maintainable architecture
+
+Even though a mocked backend is used, the application accurately represents how a **real Atomberg smart fan control system** would function in production.
+
+---
+
+**Built for evaluation, demonstration, and extensibility.**
