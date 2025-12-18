@@ -6,6 +6,24 @@
 
 The application is hosted on **Hostinger** and is accessible on both **mobile and desktop**.
 
+## 🔐 Demo Credentials
+
+The following demo credentials are provided for evaluation and testing purposes:
+
+**API Key**
+demo_api_key_123456
+
+markdown
+Copy code
+
+**Refresh Token**
+demo_refresh_token_abcdef
+
+pgsql
+Copy code
+
+> ⚠️ These credentials are for **demo use only** and are safe to use in the hosted application.  
+> They do not provide access to any real Atomberg user account.
 ---
 
 ## 🎯 Project Objective
