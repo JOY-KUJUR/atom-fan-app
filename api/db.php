@@ -1,5 +1,6 @@
 <?php
-$conn = mysqli_connect("localhost", "u307056987_atom", "atom@H26", "u307056987_atom");
+$conn = mysqli_connect("localhost", "db_atom", "enter_pass", "user_atom");
 if (!$conn) {
   die("DB Connection Failed");
 }
+
